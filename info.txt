@@ -34,3 +34,13 @@ const postsReducer = (state = [], action) => {
   }
 };
 export default postsReducer;
+
+
+============================
+
+https://cdnjs.com/
+
+https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css
+
+============================
+
