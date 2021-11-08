@@ -1,0 +1,36 @@
+This is a linter warning as of React v17 letting us know that it might be wise to use named exports instead.
+
+If you have written code like this:
+
+
+
+export default () => {
+  ...
+};
+You can refactor to this instead and it will suppress the warning:
+
+
+
+const App = () => {
+  ...
+};
+export default App;
+
+
+Similarly, if you are writing a reducer:
+
+
+
+export default (state = [], action) => {
+    ...
+  }
+};
+
+
+It can be rewritten like this:
+
+const postsReducer = (state = [], action) => {
+    ...
+  }
+};
+export default postsReducer;
