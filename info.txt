@@ -44,3 +44,19 @@ https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css
 
 ============================
 
+wikipedia API
+
+
+
+https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=programming
+
+
+
+JSON formatter
+
+
+
+https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en
+
+=============================
+
